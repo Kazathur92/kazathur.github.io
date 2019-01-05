@@ -302,3 +302,21 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+
+/* MY ADDITIONS */
+.pottyPal {
+  border-radius: 10px;
+}
+
+.projectsSectionTitle {
+  color: #fff;
+}
+
+/* .nameTitle {
+  font-size: 1px !important;
+} */
+
+/* .headShotImage {
+ height: 10px;
+} */
