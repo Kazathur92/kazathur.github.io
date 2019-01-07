@@ -42,7 +42,13 @@
               <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+                <a class="nav-link js-scroll-trigger" href="#technologies">Technologies</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -55,7 +61,7 @@
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-2 text-uppercase">Alfonso Miranda</h1>
           <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-          <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+          <!-- <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a> -->
         </div>
       </div>
     </header>
@@ -75,7 +81,8 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects-section bg-light">
+    <section class="projects-section bg-light">
+      <p id="projects"></p>
         <h1 class="projectsSectionTitle text-uppercase">Projects</h1>
       <div class="container">
 
@@ -83,8 +90,8 @@
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-8 col-lg-7">
             <!-- <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt=""> -->
-            <h2 class="section-heading">Potty Pal</h2>
-            <img class="img-fluid pottyPal" src="img/potty-pal-main.png">
+            <!-- <h2 class="section-heading pottyPalHeading">Potty Pal</h2> -->
+            <img class="img-fluid pottyPal" src="img/pottyPalMainBetter.png">
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
@@ -100,13 +107,13 @@
         </div>
 
         <!-- Project One Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 projectBox1">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/addRestroom.png" alt="">
+            <img class="img-fluid addBathroomImage" src="img/addBathroomBetter.png" alt="">
           </div>
           <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
+            <div class="bg-blue text-center h-100 project">
+              <div class="d-flex h-100 addBathroomBox">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
                   <h4 class="text-white">Adding a Bathroom Marker</h4>
                   <p class="mb-0 text-white-50">When clicking the Add Bathroom button a modal appears where you can provide the information about
@@ -122,11 +129,11 @@
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/sideBar.png" alt="">
+            <img class="img-fluid sideBarImage" src="img/sideBarBetter.png" alt="">
           </div>
           <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
+            <div class="bg-blue text-center h-100 project">
+              <div class="d-flex h-100 sideBarBox">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
                   <h4 class="text-white">Using the Marker's Sidebar</h4>
                   <p class="mb-0 text-white-50">A secondary button summons a sidebar which
@@ -143,12 +150,38 @@
       </div>
     </section>
 
+       <!-- Technologies Section -->
+       <section class="technologies-section text-center bg-light">
+          <p id="technologies"></p>
+          <h1 class="technologiesSectionTitle text-uppercase">Technologies</h1>
+          <div class="container">
+
+            <div class="row">
+              <div class="col-lg-8 mx-auto technologiesImages">
+                <div class="imagesRow1">
+                  <img src="img/bulma.png" class="img-fluid bulmaLogo" alt="Responsive image">
+                  <img src="img/git.png" class="img-fluid gitLogo" alt="Responsive image">
+                </div>
+                <div class="imagesRow2">
+                  <img src="img/react.png" class="img-fluid reactLogo" alt="Responsive image">
+                  <img src="img/css.png" class="img-fluid cssLogo" alt="Responsive image">
+                  </div>
+                  <div class="imagesRow3">
+                  <img src="img/javascript.png" class="img-fluid javascriptLogo" alt="Responsive image">
+                  <img src="img/html5.png" class="img-fluid html5Logo" alt="Responsive image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
     <!-- Signup Section -->
-    <section id="signup" class="signup-section">
+    <section id="resume" class="signup-section">
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
-            <a href="documents/Resume.pdf" class="downloadResume" download>Download Resume</a>
+            <a href="documents/Resume.pdf" type="button" class="downloadResume" download>
+            <p class="resumeButtonWords">Download Resume</p></a>
             <!-- <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 class="text-white mb-5">Subscribe to receive updates!</h2> -->
 
@@ -163,7 +196,9 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact-section bg-black">
+    <section class="contact-section contactSection">
+        <p id="contact"></p>
+        <h1 class="contactMeSectionTitle text-uppercase">Contact me</h1>
       <div class="container">
 
         <div class="row">
@@ -220,7 +255,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black small text-center text-white-50">
+    <footer class="contactSection small text-center text-white-50">
       <div class="container">
         Copyright &copy; Your Website 2018
       </div>
