@@ -200,6 +200,14 @@
   width: 70px;
 }
 
+.browserifyLogo {
+  height: 90;
+}
+
+.gruntLogo {
+  height: 90;
+}
+
 .contactSection {
   background-color: #003391 !important;
 }
