@@ -1,6 +1,10 @@
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10rem;
+  padding-top: 15rem;
+  background:linear-gradient(to bottom,rgb(0, 51, 145) 0,rgb(25, 100, 240) 75%,#f8f9fa 100%);
   p {
     margin-bottom: 5rem;
   }
