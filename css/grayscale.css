@@ -11,9 +11,17 @@
 
 
   .masthead{
-  position:relative;width:100%;
-  height:auto;min-height:35rem;
+  position:relative;
+  width:100%;
+  height:auto;
+  min-height:35rem;
   padding:15rem 0;
+  /* background:-webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)), */
+  /* url(../img/bg-masthead.jpg) */
+  /* ; */
+  /* background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%), */
+  /* url(../img/bg-masthead.jpg) */
+  /* ; */
   background: linear-gradient( rgb(67, 141, 252), rgb(0, 51, 145));
   background-position:center;
   background-repeat:no-repeat;
@@ -38,7 +46,7 @@
   @media (width:992px)
 
   {.masthead{height:100vh;padding:0}
-
+  /* .masthead h1{font-size:6.5rem;line-height:6.5rem;letter-spacing:.8rem} */
   .masthead h2{max-width:30rem;font-size:1.25rem}}
 
 
@@ -64,6 +72,9 @@
   flex-direction: column;
   padding-bottom: 10rem;
   padding-top: 15rem;
+  /* background:-webkit-gradient(linear,left top,left bottom,from(rgb(0, 102, 255)), */
+  /* color-stop(75%,rgba(22,22,22,.9)), */
+  /* to(rgb(0, 102, 255))); */
   background:linear-gradient(to bottom,rgb(0, 51, 145) 0,rgb(25, 100, 240) 75%,#f8f9fa 100%);
   }
 
@@ -80,7 +91,8 @@
 
   .signup-section{
   padding:10rem 0;
- background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-signup.jpg); */
+  /* background:-webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url(../img/bg-signup.jpg); */
+  /* background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-signup.jpg); */
   background: linear-gradient( #f8f9fa , rgb(0, 51, 145));
   background-position:center;
   background-repeat:no-repeat;
@@ -137,6 +149,7 @@
   background:-webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
   -webkit-text-fill-color:transparent;
   -webkit-background-clip:text;
+  /* color:white; */
   background-color:black;
   text-align: center;
   margin-bottom: 10rem;
@@ -144,6 +157,8 @@
 
 
   .technologies-section {
+  /* display: flex; */
+  /* flex-direction: column; */
   padding-bottom: 10rem;
   padding-top: 15rem;
   }
@@ -160,6 +175,7 @@
   }
 
   .technologiesImages {
+  /* display: flex; */
   }
 
   .imagesRow1 {
@@ -213,12 +229,17 @@
   width: 40%;
   float: left;
   border-radius: 15px;
+  /* border: solid 3px #161616; */
   border-left: solid 15px #3c6360;
   border-bottom: solid 15px #3c6360;
   }
 
   .pottyPalHeading {
-
+  /* display: flex;
+  justify-content: center; */
+  /* text-align: center; */
+  /* background-color: #161616; */
+  /* color: rgba(255,255,255,.9); */
   }
 
   .pottyPal {
@@ -228,7 +249,7 @@
   .addBathroomImage {
   height: 100%;
   width: 100%;
-
+  /* width: 470px; */
   }
 
 
@@ -250,7 +271,7 @@
   .sideBarImage {
   height: 100%;
   width: 100%;
-
+  /* width: 470px; */
   }
 
   .contactMeSectionTitle {
@@ -259,7 +280,7 @@
   background:-webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
   -webkit-text-fill-color:transparent;
   -webkit-background-clip:text;
-
+  /* color:white; */
   background-color:rgb(0, 51, 145);
   text-align: center;
   margin-bottom: 10rem;
