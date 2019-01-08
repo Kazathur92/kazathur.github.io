@@ -163,25 +163,127 @@
   margin-bottom: 10rem;
 }
 
+.logosFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
 .technologiesImages {
-  /* display: flex; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex3 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex4 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex5 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex6 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex7 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex8 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex9 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex10 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex11 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex12 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex13 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 100px;
+  margin-bottom: 50px;
 }
 
 .bulmaLogo {
-  height: 70px;
-  width: 250px;
-  margin-right: 100px;
+  height: 90px;
+  width: 120px;
 }
 
 .gitLogo {
-  height: 70px;
-  width: 180px;
+  height: 90px;
+  width: 90px;
 }
 
 .reactLogo {
   height: 90px;
-  width: 220px;
-  margin-right: 100px;
+  width: 100px;
 }
 
 .cssLogo {
@@ -192,7 +294,6 @@
 .javascriptLogo {
   height: 90px;
   width: 95px;
-  margin-right: 100px;
 }
 
 .html5Logo {
@@ -201,11 +302,17 @@
 }
 
 .browserifyLogo {
-  height: 90;
+  height: 90px;
 }
 
 .gruntLogo {
-  height: 90;
+  height: 90px;
+}
+
+.fontLogo {
+  height: 90px;
+  width: 90px;
+  border-radius: 10px;
 }
 
 .contactSection {

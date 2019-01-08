@@ -94,56 +94,157 @@
   text-align: center;
   margin-bottom: 10rem;
   }
+  .logosFlex {
+    display: flex;
+    justify-content: space-evenly;
+  //   // flex-direction: row;
+    // flex-flow: wrap;
+  }
 
   .technologiesImages {
-  /* display: flex; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
-  .imagesRow1 {
-
+  .flex1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-bottom: 50px;
   }
+
+  .flex2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+
+  .flex3 {
+    // display: flex;
+    // flex-direction: row;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+
+  .flex4 {
+    // display: flex;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+
+  .flex5 {
+    // display: flex;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+
+  .flex6 {
+    // display: flex;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+
+  .flex7 {
+    // display: flex;
+    // flex-wrap: wrap;
+    // flex-direction: row;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+
+  .flex8 {
+    // display: flex;
+    // flex-direction: row;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+  .flex9 {
+    // display: flex;
+    // flex-direction: row;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+  .flex10 {
+    // display: flex;
+    // flex-direction: row;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+  .flex11 {
+    // display: flex;
+    // flex-direction: row;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+  .flex12 {
+    // display: flex;
+    // flex-direction: row;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+  .flex13 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+
 
   .bulmaLogo{
-  height:70px;
-  width: 250px;
-  margin-right: 100px;
+  height:90px;
+  width: 120px;
+  // margin-right: 100px;
   }
 
   .gitLogo{
-  height:70px;
-  width: 180px;
+  height:90px;
+  width: 90px;
+  // margin-right: 100px;
   }
 
   .reactLogo{
   height:90px;
-  width: 220px;
-  margin-right: 100px;
+  width: 100px;
+  // margin-right: 100px;
   }
 
   .cssLogo{
   height:90px;
   width: 70px;
-
+  // margin-right: 100px;
   }
 
   .javascriptLogo{
   height:90px;
   width: 95px;
-  margin-right: 100px;
+  // margin-right: 100px;
   }
 
   .html5Logo{
   height:90px;
   width: 70px;
-
+  // margin-right: 100px;
   }
 
   .browserifyLogo {
-    height: 90;
+    height: 90px;
+    // margin-right: 100px;
   }
 
   .gruntLogo {
-    height: 90;
+    height: 90px;
+  }
+
+  .fontLogo {
+    height: 90px;
+    width:  90px;
+    border-radius: 10px;
+  }
+
+  .fontWords {
   }
 
 
