@@ -105,8 +105,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: .8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  color: rgba(255, 255, 255, 0.9);
   -webkit-background-clip: text;
 }
 
@@ -167,18 +166,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .technologiesImages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -191,7 +190,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-right: 100px;
+  margin-right: 90px;
   margin-bottom: 50px;
 }
 
@@ -258,15 +257,16 @@
 }
 
 .flex13 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex14 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.flex15 {
   margin-right: 100px;
   margin-bottom: 50px;
 }
@@ -313,6 +313,11 @@
   height: 90px;
   width: 90px;
   border-radius: 10px;
+}
+
+.fontWords {
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .contactSection {
