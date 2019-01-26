@@ -16,8 +16,6 @@
     line-height:2.5rem;
     letter-spacing:.8rem;
     color: rgba(255,255,255,.9);
-    // background:-webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
-    // -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
   }
   h2 {
@@ -34,11 +32,6 @@
   @media(min-width: 992px) {
     height: 100vh;
     padding: 0;
-    // h1 {
-    //   font-size: 6.5rem;
-    //   line-height: 6.5rem;
-    //   letter-spacing: 0.8rem;
-    // }
     h2 {
       max-width: 30rem;
       font-size: 1.25rem;
@@ -220,17 +213,11 @@
   width: 40%;
   float: left;
   border-radius: 15px;
-  /* border: solid 3px #161616; */
   border-left: solid 15px #3c6360;
   border-bottom: solid 15px #3c6360;
   }
 
   .pottyPalHeading {
-  /* display: flex;
-  justify-content: center; */
-  /* text-align: center; */
-  /* background-color: #161616; */
-  /* color: rgba(255,255,255,.9); */
   }
 
   .pottyPal {
@@ -240,7 +227,6 @@
   .addBathroomImage {
   height: 100%;
   width: 100%;
-  /* width: 470px; */
   }
 
 
@@ -262,7 +248,6 @@
   .sideBarImage {
   height: 100%;
   width: 100%;
-  /* width: 470px; */
   }
 
   .contactMeSectionTitle {
@@ -271,7 +256,6 @@
   background:-webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
   -webkit-text-fill-color:transparent;
   -webkit-background-clip:text;
-  /* color:white; */
   background-color:rgb(0, 51, 145);
   text-align: center;
   margin-bottom: 10rem;
