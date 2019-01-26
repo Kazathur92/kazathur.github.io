@@ -79,6 +79,7 @@
   }
 
   .technologiesImages {
+    margin-left: 3%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -277,20 +278,23 @@
   }
 
   .downloadResume {
-  font-size: 20px;
+
+  margin-top: 15%;
+  font-size: 25px;
   color: white;
-  background-color: #64a19d;
-  height: 40px;
-  width: 230px;
-  border-radius: 10px;
+  background-color: #1e67d4;
+  border: 3px solid #0d4292;
+  height: 70px;
+  width: 290px;
+  border-radius: 20px;
   }
 
   .downloadResume:hover {
   color: white;
-  background-color: #518380;
+  background-color: #0e4aa5;
 
   }
 
   .resumeButtonWords {
-  margin-top: 5px;
+  margin-top: 13px;
   }
