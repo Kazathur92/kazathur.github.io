@@ -43,7 +43,7 @@
         "gulp-sass": "4.0.2",
         "gulp-uglify": "3.0.1"
     },
-     "scripts": {
+    "scripts": {
         "start": "node startbootstrap-grayscale",
         "postinstall": "gulp default"
     }
