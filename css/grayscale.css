@@ -394,7 +394,6 @@
 
 .resumeButtonWords {
   margin-top: 13px;
-  background-color: #0e4aa5;
 }
 
 .btn {
@@ -546,12 +545,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #eff0f0;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #eff0f0;
 }
 
 .bg-blue {
@@ -568,4 +567,45 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+
+
+.pottyPalRepoTitle {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pottyPalRepoLink {
+  color: black;
+}
+
+.pottyPalRepoLink:hover {
+  color: blue;
+}
+
+
+.projectTwoLastContainer {
+  /* margin-bottom: 10%; */
+}
+
+.pokeMasterRepoTitle {
+  margin-top: 10%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pokeMasterRepoLink {
+  color: black;
+}
+
+.pokeMasterRepoLink:hover {
+  color: blue;
+}
+
+.pokeMasterBackEndRepoTitle {
+  font-weight: bold;
+  text-align: center;
 }
